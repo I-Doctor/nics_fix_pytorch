@@ -73,6 +73,12 @@ You can modify the config tensors in place to change the behavior.
   bilinear = nnf_auto.Bilinear_fix(...parameters...)
   ```
 
+### Setup
+
+As far as we know, Pytorch 0.4.0+ is necessary.
+You can just use this tool with the folder `nics_fix_pt/` under your path or you can copy it to python packages path.
+
+
 ### Test cases
 
 Tested with Python 2.7, 3.5, 3.6.1+.
@@ -80,10 +86,4 @@ Tested with Python 2.7, 3.5, 3.6.1+.
 ![coverage percentage](./coverage.svg)
 
 Run `python setup.py test` to run the pytest test cases.
-
-### Setup
-
-As far as we know, Pytorch 0.4.0+ is necessary.
- 
-You can just use this tool with the folder `nics_fix_pt/` under your path or you can copy it to python packages path.
 
