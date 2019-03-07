@@ -80,3 +80,10 @@ Tested with Python 2.7, 3.5, 3.6.1+.
 ![coverage percentage](./coverage.svg)
 
 Run `python setup.py test` to run the pytest test cases.
+
+### Setup
+
+As far as we know, Pytorch 0.4.0+ is necessary.
+ 
+You can just use this tool with the folder `nics_fix_pt/` under your path or you can copy it to python packages path.
+
